@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $main-color;
+  color: $text-color;
+  padding: 12px;
+
+  .footercontainer {
+    p {
+      letter-spacing: 2px;
+    }
+  }
+}

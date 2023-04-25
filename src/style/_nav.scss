@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    nav {
+      margin: auto;
+      max-width: 1440px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      ul {
+        list-style-type: none;
+  
+        li {
+          cursor: pointer;
+          padding: 4px 0;
+  
+          a {
+            text-decoration: none;
+            color: $main-color;
+          }
+  
+          p 
+          {
+            font-size: $font-size4;
+          }
+        }
+      }
+    }
+  }
+
+.header.active{
+  position: fixed;
+  top: 0;
+  background-color: $text-color;
+  z-index: 100;
+  border-bottom: $main-color 2px solid;
+  box-shadow: $box-shadwo;
+}
